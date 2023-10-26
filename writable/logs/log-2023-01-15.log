@@ -1,0 +1,16 @@
+CRITICAL - 2023-01-15 02:26:23 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-15 17:23:30 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

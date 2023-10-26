@@ -1,0 +1,517 @@
+CRITICAL - 2023-01-14 00:07:19 --> Invalid file: perpus/tambah.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/tambah.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/tambah', [], true)
+ 3 APPPATH\Controllers\Perpus.php(30): view('perpus/tambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 00:08:05 --> Invalid file: perpus/tambah.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/tambah.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/tambah', [], true)
+ 3 APPPATH\Controllers\Perpus.php(30): view('perpus/tambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 00:33:29 --> Undefined array key "id"
+in APPPATH\Views\Perpus\index.php on line 70.
+ 1 APPPATH\Views\Perpus\index.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Perpus\\index.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Perpus\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/index', [], true)
+ 5 APPPATH\Controllers\Perpus.php(22): view('perpus/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 00:34:55 --> Undefined array key "nama_anggota"
+in APPPATH\Views\Perpus\index.php on line 70.
+ 1 APPPATH\Views\Perpus\index.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_anggota"', 'APPPATH\\Views\\Perpus\\index.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Perpus\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/index', [], true)
+ 5 APPPATH\Controllers\Perpus.php(22): view('perpus/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 00:36:24 --> Undefined array key "id"
+in APPPATH\Views\Perpus\index.php on line 70.
+ 1 APPPATH\Views\Perpus\index.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Perpus\\index.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Perpus\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/index', [], true)
+ 5 APPPATH\Controllers\Perpus.php(22): view('perpus/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:05:34 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:06:43 --> Call to undefined method App\Models\perpusModel::getperpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getperpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:16:31 --> Invalid file: perpus/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/edit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/edit', [], true)
+ 3 APPPATH\Controllers\Perpus.php(63): view('perpus/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit('5')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:17:13 --> Invalid file: perpus/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/edit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/edit', [], true)
+ 3 APPPATH\Controllers\Perpus.php(63): view('perpus/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit('5')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:18:05 --> Invalid file: perpus/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/edit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/edit', [], true)
+ 3 APPPATH\Controllers\Perpus.php(63): view('perpus/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit('5')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:22:20 --> Too few arguments to function App\Controllers\Perpus::edit(), 0 passed in C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Perpus.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:23:27 --> Too few arguments to function App\Controllers\Perpus::edit(), 0 passed in C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Perpus.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:25:23 --> Too few arguments to function App\Controllers\Perpus::edit(), 0 passed in C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Perpus.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:25:27 --> Too few arguments to function App\Controllers\Perpus::edit(), 0 passed in C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Perpus.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:29:54 --> Too few arguments to function App\Controllers\Perpus::editdata(), 0 passed in C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Perpus.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->editdata()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:30:40 --> Too few arguments to function App\Controllers\Perpus::editdata(), 0 passed in C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Perpus.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->editdata()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:30:42 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->editdata('6')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:30:45 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->editdata('6')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:30:48 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->editdata('6')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:32:02 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Perpus\index.php on line 45.
+ 1 APPPATH\Views\Perpus\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\Perpus\\index.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Perpus\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/index', [], true)
+ 5 APPPATH\Controllers\Perpus.php(63): view('perpus/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->editdata('6')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:36:39 --> Invalid file: perpus/editdata.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/editdata.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/editdata', [], true)
+ 3 APPPATH\Controllers\Perpus.php(63): view('perpus/editdata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->editdata('6')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:36:54 --> Invalid file: perpus/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/edit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/edit', [], true)
+ 3 APPPATH\Controllers\Perpus.php(63): view('perpus/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->editdata('6')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:38:19 --> Too few arguments to function App\Controllers\Perpus::editdata(), 0 passed in C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Perpus.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->editdata()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:38:31 --> Too few arguments to function App\Controllers\Perpus::editdata(), 0 passed in C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Perpus.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->editdata()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:39:49 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:43:02 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('6')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:49:55 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 01:52:11 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 06:29:26 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:19:29 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:28:44 --> Invalid file: perpus/update.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/update.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/update', [], true)
+ 3 APPPATH\Controllers\Perpus.php(63): view('perpus/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:29:26 --> Too few arguments to function App\Controllers\Perpus::update(), 0 passed in C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Perpus.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:30:40 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:30:41 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:30:58 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:38:05 --> Invalid file: perpus/update.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/update.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/update', [], true)
+ 3 APPPATH\Controllers\Perpus.php(63): view('perpus/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:38:52 --> Too few arguments to function App\Controllers\Perpus::update(), 0 passed in C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Perpus.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:46:07 --> Too few arguments to function App\Controllers\Perpus::update(), 0 passed in C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Perpus.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:46:18 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:47:46 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:47:50 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:48:09 --> Invalid file: perpus/update.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/update.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/update', [], true)
+ 3 APPPATH\Controllers\Perpus.php(63): view('perpus/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:48:18 --> Undefined variable $p
+in APPPATH\Views\Pages\update.php on line 16.
+ 1 APPPATH\Views\Pages\update.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'APPPATH\\Views\\Pages\\update.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/update', [], true)
+ 5 APPPATH\Controllers\Perpus.php(63): view('pages/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:49:18 --> Too few arguments to function App\Controllers\Perpus::update(), 0 passed in C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\Perpus.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:56:04 --> Undefined variable $id
+in APPPATH\Controllers\Perpus.php on line 69.
+ 1 APPPATH\Controllers\Perpus.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Perpus.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:56:12 --> Undefined variable $id
+in APPPATH\Controllers\Perpus.php on line 69.
+ 1 APPPATH\Controllers\Perpus.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Perpus.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:56:18 --> Undefined variable $id
+in APPPATH\Controllers\Perpus.php on line 69.
+ 1 APPPATH\Controllers\Perpus.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Perpus.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 07:58:47 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Perpus.php on line 69.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('perpus/update')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('perpus/update')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('perpus/update')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-14 07:59:25 --> mysqli_sql_exception: Column 'nama_anggota' cannot be null in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\fadhlan ci4\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\fadhlan ci4\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->update('3')
+#10 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#11 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-01-14 07:59:25 --> Column 'nama_anggota' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`) VALUES (:nama_anggota:, :kode_anggota:, :tanggal_lahir:, :tempat_lahir:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Perpus.php(67): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('3')
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-14 08:00:15 --> mysqli_sql_exception: Column 'nama_anggota' cannot be null in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\fadhlan ci4\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\fadhlan ci4\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->update('3')
+#10 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#11 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-01-14 08:00:15 --> Column 'nama_anggota' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`) VALUES (:nama_anggota:, :kode_anggota:, :tanggal_lahir:, :tempat_lahir:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Perpus.php(67): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->update('3')
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:00:19 --> Invalid file: perpus/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/edit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/edit', [], true)
+ 3 APPPATH\Controllers\Perpus.php(63): view('perpus/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit('3')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:00:29 --> Invalid file: perpus/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/edit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/edit', [], true)
+ 3 APPPATH\Controllers\Perpus.php(63): view('perpus/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit('3')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:02:00 --> Invalid file: perpus/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perpus/edit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/edit', [], true)
+ 3 APPPATH\Controllers\Perpus.php(63): view('perpus/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit('3')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-14 08:12:49 --> Call to undefined method App\Models\perpusModel::getPerpus
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(60): CodeIgniter\Model->__call('getPerpus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->edit('3')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

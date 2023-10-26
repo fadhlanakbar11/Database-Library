@@ -1,0 +1,541 @@
+ERROR - 2023-01-13 01:27:59 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_uasiwp_libra...', 3306, '', 0)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fadhlan ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->index()
+#8 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#9 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\fadhlan ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->index()
+#7 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#8 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-13 01:27:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `perpus`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Perpus.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 01:28:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_uasiwp_libra...', 3306, '', 0)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fadhlan ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->index()
+#8 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#9 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\fadhlan ci4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->index()
+#7 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#8 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-13 01:28:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `perpus`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Perpus.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 19:43:03 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Perpus.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Perpus.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\perpus')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\perpus')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\perpus', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 19:44:31 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 19:47:48 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 19:47:56 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 19:48:16 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 19:50:59 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 19:51:06 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 19:53:29 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 19:54:06 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 19:54:52 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 19:58:56 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 20:00:11 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 20:09:12 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 20:20:09 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Perpus.php on line 34.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('perpus/submit')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('perpus/submit')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('perpus/submit')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 20:24:14 --> Undefined property: App\Controllers\Perpus::$index
+in APPPATH\Controllers\Perpus.php on line 46.
+ 1 APPPATH\Controllers\Perpus.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Perpus::$index', 'APPPATH\\Controllers\\Perpus.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 20:32:52 --> Undefined property: App\Controllers\Perpus::$perpus
+in APPPATH\Controllers\Perpus.php on line 46.
+ 1 APPPATH\Controllers\Perpus.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Perpus::$perpus', 'APPPATH\\Controllers\\Perpus.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 20:34:58 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 22:52:41 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 22:54:37 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 23:02:55 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 23:04:05 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 23:06:42 --> Call to undefined method App\Models\perpusModel::submit
+in SYSTEMPATH\Model.php on line 806.
+ 1 APPPATH\Controllers\Perpus.php(34): CodeIgniter\Model->__call('submit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 23:20:48 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\fadhlan ci4\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\fadhlan ci4\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->save()
+#10 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#11 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-01-13 23:20:48 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:20:47\', \'2023-01-13 23:20:47\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:20:47\', \'2023-01-13 23:20:47\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:20:47\', \'2023-01-13 23:20:47\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (:nama_anggota:, :kode_anggota:, :tanggal_lahir:, :tempat_lahir:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 23:21:07 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\fadhlan ci4\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\fadhlan ci4\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->save()
+#10 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#11 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-01-13 23:21:07 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:21:07\', \'2023-01-13 23:21:07\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:21:07\', \'2023-01-13 23:21:07\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:21:07\', \'2023-01-13 23:21:07\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (:nama_anggota:, :kode_anggota:, :tanggal_lahir:, :tempat_lahir:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 23:24:44 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\fadhlan ci4\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\fadhlan ci4\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->save()
+#10 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#11 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-01-13 23:24:44 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:24:44\', \'2023-01-13 23:24:44\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:24:44\', \'2023-01-13 23:24:44\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:24:44\', \'2023-01-13 23:24:44\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (:nama_anggota:, :kode_anggota:, :tanggal_lahir:, :tempat_lahir:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 23:25:02 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\fadhlan ci4\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\fadhlan ci4\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->save()
+#10 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#11 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-01-13 23:25:02 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:25:02\', \'2023-01-13 23:25:02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:25:02\', \'2023-01-13 23:25:02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:25:02\', \'2023-01-13 23:25:02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (:nama_anggota:, :kode_anggota:, :tanggal_lahir:, :tempat_lahir:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 23:28:13 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\fadhlan ci4\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\fadhlan ci4\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->save()
+#10 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#11 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-01-13 23:28:13 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:28:13\', \'2023-01-13 23:28:13\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:28:13\', \'2023-01-13 23:28:13\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:28:13\', \'2023-01-13 23:28:13\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (:nama_anggota:, :kode_anggota:, :tanggal_lahir:, :tempat_lahir:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 23:30:34 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\fadhlan ci4\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\fadhlan ci4\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->save()
+#10 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#11 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-01-13 23:30:34 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:30:34\', \'2023-01-13 23:30:34\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:30:34\', \'2023-01-13 23:30:34\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:30:34\', \'2023-01-13 23:30:34\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (:nama_anggota:, :kode_anggota:, :tanggal_lahir:, :tempat_lahir:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 23:31:31 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\fadhlan ci4\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\fadhlan ci4\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->save()
+#10 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#11 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-01-13 23:31:31 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:31:31\', \'2023-01-13 23:31:31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:31:31\', \'2023-01-13 23:31:31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asd\', \'asd\', \'2023-01-14\', NULL, \'2023-01-13 23:31:31\', \'2023-01-13 23:31:31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (:nama_anggota:, :kode_anggota:, :tanggal_lahir:, :tempat_lahir:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 23:33:32 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\fadhlan ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\fadhlan ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\fadhlan ci4\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\fadhlan ci4\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\fadhlan ci4\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\fadhlan ci4\app\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(925): App\Controllers\Perpus->save()
+#10 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+#11 C:\xampp\htdocs\fadhlan ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fadhlan ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\fadhlan ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-01-13 23:33:32 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asda\', \'sd\', \'2023-01-14\', \'asd\', \'2023-01-13 23:33:32\', \'2023-01-13 23:33:32\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asda\', \'sd\', \'2023-01-14\', \'asd\', \'2023-01-13 23:33:32\', \'2023-01-13 23:33:32\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (\'asda\', \'sd\', \'2023-01-14\', \'asd\', \'2023-01-13 23:33:32\', \'2023-01-13 23:33:32\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perpus` (`nama_anggota`, `kode_anggota`, `tanggal_lahir`, `tempat_lahir`, `created_at`, `updated_at`) VALUES (:nama_anggota:, :kode_anggota:, :tanggal_lahir:, :tempat_lahir:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Perpus.php(34): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->save()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 23:47:36 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\Perpus\index.php on line 79.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('perpus/index', [], true)
+ 3 APPPATH\Controllers\Perpus.php(22): view('perpus/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Perpus->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perpus))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
